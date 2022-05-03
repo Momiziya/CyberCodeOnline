@@ -88,7 +88,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"nextUpkeepDate"
  	 	 	 	],
- 	 	 	 	"trans": "下一次保留日期：${nextUpkeepDate}",
+ 	 	 	 	"trans": "下一次保养日期：${nextUpkeepDate}",
  	 	 	 	"eng": "Next upkeep Date: ${nextUpkeepDate}"
  	 	 	},
  	 	 	"insufficientError": {
@@ -132,7 +132,7 @@
  	 	 	 	 	 	"eng": "Decryption successful"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "加工中",
+ 	 	 	 	 	 	"trans": "运算中",
  	 	 	 	 	 	"eng": "processing"
  	 	 	 	 	}
  	 	 	 	},
@@ -235,7 +235,7 @@
  	 	 	 	 	"eng": "How many would you like to put in the vault?"
  	 	 	 	},
  	 	 	 	"selectWithdrawItem": {
- 	 	 	 	 	"trans": "你想要从银行里取出多少件物品？",
+ 	 	 	 	 	"trans": "你想要从金库里取出多少件物品？",
  	 	 	 	 	"eng": "How many would you like to withdraw from the bank?"
  	 	 	 	},
  	 	 	 	"selectDeposit": {
@@ -262,13 +262,13 @@
  	 	 	 	},
  	 	 	 	"secondary": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "特殊武器",
+ 	 	 	 	 	 	"trans": "破盾武器",
  	 	 	 	 	 	"eng": "special"
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"tertiary": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "毁灭武器",
+ 	 	 	 	 	 	"trans": "破甲武器",
  	 	 	 	 	 	"eng": "Destruct."
  	 	 	 	 	}
  	 	 	 	}
@@ -276,7 +276,7 @@
  	 	},
  	 	"generalCaptcha": {
  	 	 	"story": {
- 	 	 	 	"trans": "你找到了一个古老的上锁保险箱，看起来上面贴了一个写了一些字的便利贴。",
+ 	 	 	 	"trans": "你找到了一个古老的上锁保险箱，看起来上面帖了一张写有文字的便利贴。",
  	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
  	 	 	},
  	 	 	"title": {
@@ -298,7 +298,7 @@
  	 	 	 	"eng": "Reestablishing connection"
  	 	 	},
  	 	 	"notAtBottom": {
- 	 	 	 	"trans": "你正在观看旧消息",
+ 	 	 	 	"trans": "你正在察看旧消息",
  	 	 	 	"eng": "You are looking at old messages"
  	 	 	},
  	 	 	"replyTo": {
@@ -309,7 +309,7 @@
  	 	 	 	"eng": "Replying to ${playerName}"
  	 	 	},
  	 	 	"linksNotAllowed": {
- 	 	 	 	"trans": "链接是不允许的",
+ 	 	 	 	"trans": "不允许外部链接",
  	 	 	 	"eng": "Links are not allowed"
  	 	 	},
  	 	 	"spamBlock": {
@@ -321,14 +321,14 @@
  	 	 	 	"eng": "Please do not send the same message repeatedly, spams will be muted."
  	 	 	},
  	 	 	"shortChatBlock": {
- 	 	 	 	"trans": "请不要发送短信息，尝试更长的句子。",
+ 	 	 	 	"trans": "您无法在10级前发送过短的消息，试试更长的句子吧",
  	 	 	 	"eng": "Please do not send short messages, try a longer sentence instead."
  	 	 	},
  	 	 	"underlevelChatBlock": {
  	 	 	 	"vars": [
  	 	 	 	 	"minLevel"
  	 	 	 	],
- 	 	 	 	"trans": "您需要至少${minLevel}级来发送聊天消息",
+ 	 	 	 	"trans": "您需要至少${minLevel}级才能发送私信",
  	 	 	 	"eng": "You need to be at least level ${minLevel} to send chat messages"
  	 	 	},
  	 	 	"chat": {
@@ -365,13 +365,13 @@
  	 	},
  	 	"chatPreview": {
  	 	 	"notConnected": {
- 	 	 	 	"trans": "聊天系统未连接",
+ 	 	 	 	"trans": "聊天系统离线中",
  	 	 	 	"eng": "chat system not connected"
  	 	 	}
  	 	},
  	 	"deathScreen": {
  	 	 	"topTitleLeft": {
- 	 	 	 	"trans": "致命伤势",
+ 	 	 	 	"trans": "您已死亡",
  	 	 	 	"eng": "fatal injury"
  	 	 	},
  	 	 	"topTitleRight": {
@@ -379,15 +379,15 @@
  	 	 	 	"eng": "SL Medical Center"
  	 	 	},
  	 	 	"title": {
- 	 	 	 	"trans": "死亡",
+ 	 	 	 	"trans": "正在准备克隆",
  	 	 	 	"eng": "Flatlined"
  	 	 	},
  	 	 	"subTitleSmall": {
- 	 	 	 	"trans": "严重错误：神经连接中断",
+ 	 	 	 	"trans": "死亡并非终点，武装自己再次挑战",
  	 	 	 	"eng": "Critical Error: Neural Link Disconnected"
  	 	 	},
  	 	 	"progressBarTitle": {
- 	 	 	 	"trans": "重新建立连接",
+ 	 	 	 	"trans": "克隆进度",
  	 	 	 	"eng": "Re-establishing connection"
  	 	 	}
  	 	},
@@ -476,11 +476,11 @@
  	 	 	 	 	 	"timeSkipMinutes",
  	 	 	 	 	 	"timeSkipCost"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "全球时光飞逝（${timeSkipMinutes} 分钟，花费 ${timeSkipCost} Units）",
+ 	 	 	 	 	"trans": "广域时间扭曲（${timeSkipMinutes} 分钟，花费 ${timeSkipCost} Units）",
  	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "全球时光飞逝会让您跳过等待时间并立即完成。 \n     这将对所有执行挂机任务中的玩家生效。",
+ 	 	 	 	 	"trans": "「广域时间扭曲」使你免受枯燥的等待时间，立即完成作业。 \n     这将对所有「已经」执行挂机任务中的玩家生效。",
  	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all player performing AFK task"
  	 	 	 	}
  	 	 	},
@@ -489,7 +489,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"itemSkipMinutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "免费时光飞逝（${itemSkipMinutes} 分钟）",
+ 	 	 	 	 	"trans": "免费跳过时间（${itemSkipMinutes} 分钟）",
  	 	 	 	 	"eng": "Free time skip (${itemSkipMinutes} Min)"
  	 	 	 	},
  	 	 	 	"description": {
@@ -497,41 +497,41 @@
  	 	 	 	 	 	"timeSkipItemName",
  	 	 	 	 	 	"itemSkipMinutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "使用一个您的${timeSkipItemName}来进行${itemSkipMinutes}分钟的全球时光飞逝",
+ 	 	 	 	 	"trans": "使用一个您的${timeSkipItemName}来进行${itemSkipMinutes}分钟的广域时间扭曲",
  	 	 	 	 	"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
  	 	 	 	}
  	 	 	},
  	 	 	"confirmModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "确定要发起全球时光飞逝吗？",
+ 	 	 	 	 	"trans": "确定要发起广域时间扭曲吗？",
  	 	 	 	 	"eng": "Confirm use skip?"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "全球时光飞逝将让所有执行挂机任务的玩家跳过等待时间",
+ 	 	 	 	 	"trans": "广域时间扭曲将让所有「已经」执行挂机任务的玩家跳过等待时间",
  	 	 	 	 	"eng": "Global Skip will skip the waiting time for all players performing AFK task"
  	 	 	 	}
  	 	 	},
  	 	 	"inProgressBox": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "全球时光飞逝进行中",
+ 	 	 	 	 	"trans": "广域时间扭曲进行中",
  	 	 	 	 	"eng": "Global Skip in progress"
  	 	 	 	},
  	 	 	 	"subtitle": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"skippingPlayerCount"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "还有 ${skippingPlayerCount}用户正等待全球时光飞逝..",
+ 	 	 	 	 	"trans": "还有 ${skippingPlayerCount}用户正等待加速..",
  	 	 	 	 	"eng": "Accelerating ${skippingPlayerCount} users.."
  	 	 	 	}
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "全球时光飞逝会让您跳过挂机等待时间，并立即完成。 \n     这将对所有执行挂机任务的玩家生效。",
+ 	 	 	 	"trans": "「广域时间扭曲使」您免受枯燥的等待时间，并立即完成作业。 \n     这将对所有「已经」执行挂机任务的玩家生效。",
  	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all players performing an AFK task"
  	 	 	}
  	 	},
  	 	"list": {
  	 	 	"longPressToMultiSelect": {
- 	 	 	 	"trans": "长按来选择多个",
+ 	 	 	 	"trans": "长按以选择多个项目",
  	 	 	 	"eng": "Long press to multi-select"
  	 	 	}
  	 	},
@@ -551,7 +551,7 @@
  	 	 	 	}
  	 	 	},
  	 	 	"equipped": {
- 	 	 	 	"trans": "已装备",
+ 	 	 	 	"trans": "装备栏",
  	 	 	 	"eng": "Equipped"
  	 	 	},
  	 	 	"inventory": {
@@ -570,31 +570,31 @@
  	 	"communityItemLore": {
  	 	 	"noLoreButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "创建剧情",
+ 	 	 	 	 	"trans": "创建百科全书",
  	 	 	 	 	"eng": "Create Lore"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "暂时还没有关于此物品的社区剧情，成为第一个建立它的人吧。",
+ 	 	 	 	 	"trans": "暂时还没有关于此物品的百科全书，成为第一个建立它的人吧。",
  	 	 	 	 	"eng": "There is no community lore for this item yet, be the first to create one for it."
  	 	 	 	}
  	 	 	},
  	 	 	"openButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "社区剧情",
+ 	 	 	 	 	"trans": "社区百科全书",
  	 	 	 	 	"eng": "Community Lore"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "打开这个物品的社区剧情",
+ 	 	 	 	 	"trans": "打开这个物品的社区百科全书",
  	 	 	 	 	"eng": "Open the community lore for this item"
  	 	 	 	}
  	 	 	},
  	 	 	"editButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "编辑这个剧情",
+ 	 	 	 	 	"trans": "编辑这个百科全书",
  	 	 	 	 	"eng": "edit this lore"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "编辑这个社区剧情",
+ 	 	 	 	 	"trans": "编辑这个社区百科全书",
  	 	 	 	 	"eng": "Edit this community lore"
  	 	 	 	}
  	 	 	}
@@ -611,7 +611,7 @@
  	 	 	 	}
  	 	 	},
  	 	 	"upgradeModuleTitle": {
- 	 	 	 	"trans": "升级插槽 ${index}",
+ 	 	 	 	"trans": "升级模组 ${index}",
  	 	 	 	"eng": "upgrade slot ${index}",
  	 	 	 	"vars": [
  	 	 	 	 	"index"
@@ -626,7 +626,7 @@
  	 	 	 	"eng": "Equip"
  	 	 	},
  	 	 	"cantEquip": {
- 	 	 	 	"trans": "您的等级不足以使用这个物品",
+ 	 	 	 	"trans": "您的等级过低无法使用这个装备",
  	 	 	 	"eng": "Your level is too low for this item"
  	 	 	},
  	 	 	"unequip": {
@@ -663,10 +663,10 @@
  	 	 	},
  	 	 	"factoryReset": {
  	 	 	 	"confirmation": {
- 	 	 	 	 	"trans": "执行此操作将重置物品上的所有校准，也使其可再次用来交易。 \r\n       你确定要继续吗？",
+ 	 	 	 	 	"trans": "执行此操作将重置物品上的校准等级，也使其可再次用来交易。 \r\n       你确定要继续吗？",
  	 	 	 	 	"eng": "Doing this will reset all calibration on your item. It will also make it tradable again. \r\n      Are you sure you want to proceed?"
  	 	 	 	},
- 	 	 	 	"trans": "回复出厂设置",
+ 	 	 	 	"trans": "恢复出厂设置",
  	 	 	 	"eng": "Factory Reset"
  	 	 	}
  	 	},
@@ -752,11 +752,11 @@
  	 	 	 	"vars": [
  	 	 	 	 	"skipCount"
  	 	 	 	],
- 	 	 	 	"trans": "时光正在飞逝：${skipCount}",
+ 	 	 	 	"trans": "时间扭曲进行中：${skipCount}",
  	 	 	 	"eng": "Skipping ${skipCount}"
  	 	 	},
  	 	 	"skipAvailable": {
- 	 	 	 	"trans": "时光飞逝可用",
+ 	 	 	 	"trans": "时间扭曲可用",
  	 	 	 	"eng": "Skip Available"
  	 	 	}
  	 	},
@@ -770,7 +770,7 @@
  	 	 	 	"eng": "title"
  	 	 	},
  	 	 	"gearScore": {
- 	 	 	 	"trans": "装备评分",
+ 	 	 	 	"trans": "装备评级",
  	 	 	 	"eng": "Gear Score"
  	 	 	},
  	 	 	"location": {
@@ -966,7 +966,7 @@
  	 	},
  	 	"afkTask": {
  	 	 	"newbieTip": {
- 	 	 	 	"trans": "即使您关闭了游戏，任务也会继续下去",
+ 	 	 	 	"trans": "如果您关闭了游戏，任务将会离线运行",
  	 	 	 	"eng": "The task will continue even if you close the game"
  	 	 	},
  	 	 	"syncing": {
@@ -1009,7 +1009,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"points"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${points}占领控制力",
+ 	 	 	 	 	"trans": "${points}控制点",
  	 	 	 	 	"eng": "${points} Occupation Control"
  	 	 	 	}
  	 	 	}
@@ -1042,14 +1042,14 @@
  	 	 	 	},
  	 	 	 	"noUpgrade": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "升级您的装备！",
+ 	 	 	 	 	 	"trans": "校准您的装备！",
  	 	 	 	 	 	"eng": "Upgrade your equipment!"
  	 	 	 	 	},
  	 	 	 	 	"description": {
  	 	 	 	 	 	"vars": [
  	 	 	 	 	 	 	"itemName"
  	 	 	 	 	 	],
- 	 	 	 	 	 	"trans": "您可以使用${itemName}来升级您的设备",
+ 	 	 	 	 	 	"trans": "您可以使用${itemName}来校准您的设备",
  	 	 	 	 	 	"eng": "You can upgrade your equipment by using the ${itemName}"
  	 	 	 	 	}
  	 	 	 	},
@@ -1059,7 +1059,7 @@
  	 	 	 	 	 	"eng": "Use AI Core"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "看起来您有一些AI核心，请使用它们在适当的级别区域进行AFK自动升级。",
+ 	 	 	 	 	 	"trans": "看起来您有一些AI核心，请使用它们在适当的级别区域进行挂机自动升级。",
  	 	 	 	 	 	"eng": "Looks like you have some AI Cores, use them to do AFK auto leveling in appropriate level area."
  	 	 	 	 	}
  	 	 	 	},
@@ -1069,7 +1069,7 @@
  	 	 	 	 	 	"eng": "Acquire AI Cores"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "您可以通过以下方式获得AI核心： \n          - 在各个地方清除 \n          - 用哈希处理器和技术碎片制作 \n          - 在所有地点的敌人上掉落",
+ 	 	 	 	 	 	"trans": "您可以通过以下方式获得AI核心： \n          - 在各个地方搜刮 \n          - 用杂凑处理器和技术碎片制作 \n          - 在所有地点的敌人上掉落",
  	 	 	 	 	 	"eng": "You may get AI Cores by: \n        - Scavenge in various locations\n        - Crafting with Hash Processors and Tech Scraps\n        - Looting from enemies in all locations"
  	 	 	 	 	}
  	 	 	 	},
@@ -1237,11 +1237,11 @@
  	 	 	},
  	 	 	"disableAttackBar": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "禁用攻击时序栏",
+ 	 	 	 	 	"trans": "禁用攻击时间条",
  	 	 	 	 	"eng": "Disable Attack Timing Bar"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "禁用攻击时序栏后将不会获得额外伤害",
+ 	 	 	 	 	"trans": "禁用攻击时间条后将不会获得额外伤害",
  	 	 	 	 	"eng": "Disabling attack timing bar will not grant extra damage"
  	 	 	 	}
  	 	 	},
@@ -1259,7 +1259,7 @@
  	 	 	},
  	 	 	"disableSkipRespectNoti": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "禁用致敬时光飞逝发起者的通知",
+ 	 	 	 	 	"trans": "禁用致敬时光扭曲发起者的通知",
  	 	 	 	 	"eng": "Disable Skip Respect Notification"
  	 	 	 	}
  	 	 	},
@@ -1269,7 +1269,7 @@
  	 	 	 	 	"eng": "Disable Chat Effect"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "如果在时光飞逝进行中聊天室卡顿，请禁用聊天室效果",
+ 	 	 	 	 	"trans": "如果在时间扭曲进行中聊天室卡顿，请禁用聊天室效果",
  	 	 	 	 	"eng": "Disable if chat tab lags during skips"
  	 	 	 	}
  	 	 	},
@@ -1485,7 +1485,7 @@
  	 	 	 	"eng": "Referral Program"
  	 	 	},
  	 	 	"skipQueue": {
- 	 	 	 	"trans": "时光飞逝队列",
+ 	 	 	 	"trans": "时间扭曲队列",
  	 	 	 	"eng": "Skip Queue"
  	 	 	},
  	 	 	"block-list": {
@@ -1605,7 +1605,7 @@
  	 	 	 	"eng": "Coupon"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "如果您拥有我们在某个活动中发放的优惠券，您可以在此领取。",
+ 	 	 	 	"trans": "如果您拥有我们在某个活动中发放的优惠券，您可以在此兑换。",
  	 	 	 	"eng": "If you have a coupon from one of our events, you can claim it here."
  	 	 	},
  	 	 	"placeholder": {
@@ -1828,7 +1828,7 @@
  	 	 	 	"eng": "Equipment Cache not found"
  	 	 	},
  	 	 	"subTitle": {
- 	 	 	 	"trans": "从敌人和地下城中收集缓存单元以打印你的新武器和盔甲。",
+ 	 	 	 	"trans": "从敌人和地下城中收集缓存单元以打印你的新装备。",
  	 	 	 	"eng": "gather the caches from enemies and dungeons to print your new weapons and armor"
  	 	 	}
  	 	},
@@ -1936,7 +1936,7 @@
  	 	 	 	"eng": "Enemy Gangs and Equipment Marks"
  	 	 	},
  	 	 	"timeSkip": {
- 	 	 	 	"trans": "时光飞逝",
+ 	 	 	 	"trans": "时间扭曲",
  	 	 	 	"eng": "time skip"
  	 	 	},
  	 	 	"calibration": {
@@ -2400,19 +2400,19 @@
  	 	},
  	 	"containerEpicDrop": {
  	 	 	"name": {
- 	 	 	 	"trans": "难以一遇的契机",
+ 	 	 	 	"trans": "史诗机会",
  	 	 	 	"eng": "Epic Chance"
  	 	 	}
  	 	},
  	 	"rngInterferer": {
  	 	 	"description": {
- 	 	 	 	"trans": "更容易掉落史诗装备",
+ 	 	 	 	"trans": "增加解锁容器时掉落史诗装备的几率",
  	 	 	 	"eng": "Additional epic drop chance from containers"
  	 	 	}
  	 	},
  	 	"m1Dmg": {
  	 	 	"name": {
- 	 	 	 	"trans": "野兽帮杀手",
+ 	 	 	 	"trans": "野兽帮克星",
  	 	 	 	"eng": "Animals Nemesis"
  	 	 	},
  	 	 	"description": {
@@ -2422,7 +2422,7 @@
  	 	},
  	 	"m2Dmg": {
  	 	 	"name": {
- 	 	 	 	"trans": "净化大师",
+ 	 	 	 	"trans": "巫毒小子克星",
  	 	 	 	"eng": "Voodoo Nemesis"
  	 	 	},
  	 	 	"description": {
@@ -2432,7 +2432,7 @@
  	 	},
  	 	"m3Dmg": {
  	 	 	"name": {
- 	 	 	 	"trans": "流浪者管理员",
+ 	 	 	 	"trans": "流浪者克星",
  	 	 	 	"eng": "Scavengers Nemesis"
  	 	 	},
  	 	 	"description": {
@@ -2446,7 +2446,7 @@
  	 	 	 	"eng": "Lethal"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "流浪者增加对你的伤害",
+ 	 	 	 	"trans": "流浪者帮派增加对你的伤害",
  	 	 	 	"eng": "Enemies of Scavengers gang deals increased damage to you"
  	 	 	}
  	 	},
@@ -2456,17 +2456,17 @@
  	 	 	 	"eng": "Disruptor"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "动物帮派增加对你的伤害",
+ 	 	 	 	"trans": "野兽帮派增加对你的伤害",
  	 	 	 	"eng": "Enemies of Animals gang deals increased damage to you"
  	 	 	}
  	 	},
  	 	"m3V": {
  	 	 	"name": {
- 	 	 	 	"trans": "临时",
+ 	 	 	 	"trans": "自制",
  	 	 	 	"eng": "Makeshift"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "伏都教男孩团伙增加对你的伤害",
+ 	 	 	 	"trans": "巫毒小子帮派增加对你的伤害",
  	 	 	 	"eng": "Enemies of Voodoo Boys gang deals increased damage to you"
  	 	 	}
  	 	}
@@ -2600,11 +2600,11 @@
  	 	},
  	 	"newbie4": {
  	 	 	"displayName": {
- 	 	 	 	"trans": "开启箱子",
+ 	 	 	 	"trans": "开启宝箱",
  	 	 	 	"eng": "Open Crate"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "在地下城中打开4个箱子以获得梦寐以求的战利品！",
+ 	 	 	 	"trans": "在地下城中开启四个宝箱，以获得梦寐以求的战利品！",
  	 	 	 	"eng": "Open 4 crates in dungeon to get them sweet loots!"
  	 	 	}
  	 	},
@@ -2621,13 +2621,13 @@
  	 	"questType": {
  	 	 	"normal": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "普通的",
+ 	 	 	 	 	"trans": "普通任务",
  	 	 	 	 	"eng": "normal"
  	 	 	 	}
  	 	 	},
  	 	 	"social": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "社会的",
+ 	 	 	 	 	"trans": "社交任务",
  	 	 	 	 	"eng": "social"
  	 	 	 	}
  	 	 	},
@@ -2643,7 +2643,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"progressionId"
  	 	 	 	],
- 	 	 	 	"trans": "进度-${progressionId}",
+ 	 	 	 	"trans": "阶段-${progressionId}",
  	 	 	 	"eng": "Progression-${progressionId}"
  	 	 	},
  	 	 	"description": {
@@ -2694,7 +2694,7 @@
  	 	 	 	"eng": "Acquire Bitcoin"
  	 	 	},
  	 	 	"print": {
- 	 	 	 	"trans": "3D分子印刷",
+ 	 	 	 	"trans": "分子印刷",
  	 	 	 	"eng": "Molecular Printing"
  	 	 	}
  	 	},
@@ -2898,29 +2898,29 @@
  	 	 	"eng": "Receive"
  	 	},
  	 	"purchasing": {
- 	 	 	"trans": "购买",
+ 	 	 	"trans": "购买中",
  	 	 	"eng": "Purchasing"
  	 	},
  	 	"total": {
- 	 	 	"trans": "全部的",
+ 	 	 	"trans": "全部",
  	 	 	"eng": "total"
  	 	}
  	},
  	"donationType": {
  	 	"donation1": {
- 	 	 	"trans": "成员",
+ 	 	 	"trans": "忠实会员",
  	 	 	"eng": "Member"
  	 	},
  	 	"donation2": {
- 	 	 	"trans": "捐赠者",
+ 	 	 	"trans": "赞助专家",
  	 	 	"eng": "Donator"
  	 	},
  	 	"donation3": {
- 	 	 	"trans": "精英",
+ 	 	 	"trans": "精英帝王",
  	 	 	"eng": "Elite"
  	 	},
  	 	"donation4": {
- 	 	 	"trans": "传奇",
+ 	 	 	"trans": "传奇之神",
  	 	 	"eng": "Legendary"
  	 	},
  	 	"donation5": {
@@ -2928,11 +2928,11 @@
  	 	 	"eng": "Cybernetic Potato"
  	 	},
  	 	"donation6": {
- 	 	 	"trans": "尊贵",
+ 	 	 	"trans": "以慷慨之心笼罩大地的无上至尊",
  	 	 	"eng": "Prestige"
  	 	},
  	 	"moderator": {
- 	 	 	"trans": "管理员",
+ 	 	 	"trans": "聊天管理员",
  	 	 	"eng": "Moderator"
  	 	},
  	 	"admin": {
@@ -2944,7 +2944,7 @@
  	 	"donation1": {
  	 	 	"benefits": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "“会员”捐赠标题",
+ 	 	 	 	 	"trans": "“忠实会员”捐赠头衔",
  	 	 	 	 	"eng": "\"Member\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
@@ -2952,7 +2952,7 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"3": {
- 	 	 	 	 	"trans": "基本聊天框架（无动画和没有特殊颜色）",
+ 	 	 	 	 	"trans": "基本聊天框（无动画和没有特殊颜色）",
  	 	 	 	 	"eng": "Basic Chat Frame (no animation & no special color)"
  	 	 	 	}
  	 	 	}
@@ -2960,7 +2960,7 @@
  	 	"donation2": {
  	 	 	"benefits": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "“捐赠者”捐赠标题",
+ 	 	 	 	 	"trans": "“赞助专家”捐赠头衔 ",
  	 	 	 	 	"eng": "\"Donator\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
@@ -2980,7 +2980,7 @@
  	 	"donation3": {
  	 	 	"benefits": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "“精英”捐赠标题",
+ 	 	 	 	 	"trans": "“精英帝王”捐赠头衔",
  	 	 	 	 	"eng": "\"Elite\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
@@ -3000,7 +3000,7 @@
  	 	 	 	 	"eng": "Unlock custom bio"
  	 	 	 	},
  	 	 	 	"6": {
- 	 	 	 	 	"trans": "配置文件的条形码装饰",
+ 	 	 	 	 	"trans": "配置个人的条码装饰",
  	 	 	 	 	"eng": "Barcode decoration on profile"
  	 	 	 	},
  	 	 	 	"7": {
@@ -3020,7 +3020,7 @@
  	 	"donation4": {
  	 	 	"benefits": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "“传奇”捐赠标题",
+ 	 	 	 	 	"trans": "“传奇之神”捐赠头衔",
  	 	 	 	 	"eng": "\"Legendary\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
@@ -3040,7 +3040,7 @@
  	 	 	 	 	"eng": "Unlock custom bio"
  	 	 	 	},
  	 	 	 	"6": {
- 	 	 	 	 	"trans": "条形码装饰的个人资料",
+ 	 	 	 	 	"trans": "配置个人的条码装饰",
  	 	 	 	 	"eng": "Barcode decoration on profile"
  	 	 	 	},
  	 	 	 	"7": {
@@ -3064,7 +3064,7 @@
  	 	 	 	 	"eng": "Cybernetic Potato"
  	 	 	 	},
  	 	 	 	"2": {
- 	 	 	 	 	"trans": "“赛博土豆”捐赠标题",
+ 	 	 	 	 	"trans": "“赛博机甲”捐赠头衔",
  	 	 	 	 	"eng": "\"Cybernetic Potato\" donation title"
  	 	 	 	},
  	 	 	 	"3": {
@@ -3088,7 +3088,7 @@
  	 	 	 	 	"eng": "Unlock custom bio"
  	 	 	 	},
  	 	 	 	"8": {
- 	 	 	 	 	"trans": "配置文件的条形码装饰",
+ 	 	 	 	 	"trans": "配置个人的条码装饰",
  	 	 	 	 	"eng": "Barcode decoration on profile"
  	 	 	 	},
  	 	 	 	"9": {
@@ -3112,7 +3112,7 @@
  	 	"donation6": {
  	 	 	"benefits": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "“威望”捐赠标题",
+ 	 	 	 	 	"trans": "“以慷慨之心笼罩大地的无上至尊”捐赠头衔",
  	 	 	 	 	"eng": "\"Prestige\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
@@ -3132,7 +3132,7 @@
  	 	 	 	 	"eng": "Unlock custom bio"
  	 	 	 	},
  	 	 	 	"6": {
- 	 	 	 	 	"trans": "配置文件的条形码装饰",
+ 	 	 	 	 	"trans": "配置个人的条码装饰",
  	 	 	 	 	"eng": "Barcode decoration on profile"
  	 	 	 	},
  	 	 	 	"7": {
@@ -3157,7 +3157,7 @@
  	 	 	 	"eng": "Lethal"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "对野兽帮造成的伤害增加。 但是流浪者对你的伤害增加。",
+ 	 	 	 	"trans": "对野兽帮造成的伤害增加。 但流浪者帮派对你的伤害增加。",
  	 	 	 	"eng": "deals increased damage to Animals gang. receives increased damage from Scavengers gang."
  	 	 	}
  	 	},
@@ -3167,7 +3167,7 @@
  	 	 	 	"eng": "Disruptor"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "对巫毒小子造成的伤害增加。 但是野兽帮对你的伤害增加。",
+ 	 	 	 	"trans": "对巫毒小子造成的伤害增加。 但野兽帮派对你的伤害增加。",
  	 	 	 	"eng": "deals increased damage to Voodoo Boys gang. receives increased damage from Animals gang."
  	 	 	}
  	 	},
@@ -3177,7 +3177,7 @@
  	 	 	 	"eng": "Makeshift"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "对流浪者造成的伤害增加。 但是巫毒小子对你的伤害增加。",
+ 	 	 	 	"trans": "对流浪者帮派造成的伤害增加。 但巫毒小子帮派对你的伤害增加。",
  	 	 	 	"eng": "deals increased damage to Scavengers gang. receives increased damage from Voodoo Boys gang."
  	 	 	}
  	 	}
@@ -3188,11 +3188,11 @@
  	 	 	"eng": "primary weapon"
  	 	},
  	 	"secondaryWeapon": {
- 	 	 	"trans": "特殊武器",
+ 	 	 	"trans": "破盾武器",
  	 	 	"eng": "special weapon"
  	 	},
  	 	"tertiaryWeapon": {
- 	 	 	"trans": "破坏性武器",
+ 	 	 	"trans": "破甲武器",
  	 	 	"eng": "destructive weapon"
  	 	},
  	 	"helmet": {
@@ -3223,7 +3223,7 @@
  	 	 	 	"eng": "AI Core"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "以商业使用的神经处理单元(NPU)制造的通用AI核心。\r\n        使用它来部署机器人到地下城收集物资。",
+ 	 	 	 	"trans": "商业级别神经处理单元(NPU)制造的通用AI核心。\r\n        使用它来部署机器人到地下城收集物资。",
  	 	 	 	"eng": "Commercially used Neural Processing Unit (NPU). Comes with general purpose AI. \r\n        You can use this to deploy a farming bot to dungeon for you."
  	 	 	}
  	 	},
@@ -3243,17 +3243,17 @@
  	 	 	 	"eng": "Energy Cell"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "便携能量储存设备，可作为特殊武器的弹药使用。",
+ 	 	 	 	"trans": "便携能量储存设备，可作为破盾武器的弹药使用，对护盾造成更高伤害",
  	 	 	 	"eng": "Portable energy storage device, it can be used as consumable ammo for your Special Weapons"
  	 	 	}
  	 	},
  	 	"ammo2": {
  	 	 	"name": {
- 	 	 	 	"trans": "反物质充能体",
+ 	 	 	 	"trans": "反物质电池",
  	 	 	 	"eng": "Anti Matter Charge"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "精密、小巧的一次性反物质生成器。\r\n        它能产生巨大的能量，可作为毁灭武器的弹药使用。",
+ 	 	 	 	"trans": "精密、小巧的一次性反物质能量生成器。\r\n        它能产生巨大的能量，可作为破甲武器的弹药使用,对护盾效果减半。",
  	 	 	 	"eng": "High-tech, miniaturized, one-time use, antimatter energy generator. \r\n        This item produces enormous amounts of power. You can use this as ammunition for your destructive weapon. "
  	 	 	}
  	 	},
@@ -3295,13 +3295,13 @@
  	 	},
  	 	"secondary": {
  	 	 	"name": {
- 	 	 	 	"trans": "特殊武器",
+ 	 	 	 	"trans": "破盾武器",
  	 	 	 	"eng": "Special Weapon"
  	 	 	}
  	 	},
  	 	"tertiary": {
  	 	 	"name": {
- 	 	 	 	"trans": "毁灭武器",
+ 	 	 	 	"trans": "破甲武器",
  	 	 	 	"eng": "Destructive Weapon"
  	 	 	}
  	 	},
@@ -3331,7 +3331,7 @@
  	 	},
  	 	"upgradeModule": {
  	 	 	"name": {
- 	 	 	 	"trans": "可插拔式升级模组",
+ 	 	 	 	"trans": "升级模组",
  	 	 	 	"eng": "upgrade module"
  	 	 	}
  	 	},
@@ -3838,7 +3838,7 @@
  	 	 	 	"eng": "Chat exploit transmitter [Love]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "你得到了一些爱，你也得到了一些爱！ 每个人都得到一些爱！ \r\n         当使用时，每个人都相爱！ \r\n         每个玩家将彼此相爱10分钟",
+ 	 	 	 	"trans": "你得到了一些爱，它也得到了一些爱！ 每个人都得到一些爱！ \r\n         当使用时，每个人都相爱！ \r\n         每个玩家将彼此相爱10分钟",
  	 	 	 	"eng": "You get some love, and you get some love! everyone gets some love!.\r\n        When used everyone loves each other\r\n        This effects all players fow 10 minutes"
  	 	 	}
  	 	},
@@ -4209,8 +4209,27 @@
  	 	"unitExchange": {
  	 	 	"defaultLines": {
  	 	 	 	"trans": [
- 	 	 	 	 	"你想要花费Units还是购买Units？"
- 	 	 	 	],
+ 	 	 	 	 	"你想要买点 Unit，还是使用你的 Unit？",
+ 	 	 	 	 	"伙计，好久不见。",
+ 	 	 	 	 	"我刚搞到一批新装备，有兴趣买一个吗？",
+ 	 	 	 	 	"欢迎来到幻想乡。",
+ 	 	 	 	 	"新的AI要量产了？嘘，小声点这可是机密情报。",
+ 	 	 	 	 	"欢迎！啊？我还以为是兽耳少女偶像椛椛来了，你的头盔上可以不要画上耳朵吗？",
+ 	 	 	 	 	"土豆服务器商城？那您可看错了，我们这儿是Unit专卖店！",
+ 	 	 	 	 	"您认识Dexter吗？我跟他可是一起玩过CCO。",
+ 	 	 	 	 	"你看起來不是很好。要不要来上一个红块？",
+ 	 	 	 	 	"爱一个人就为它买些Unit吧！",
+ 	 	 	 	 	"君本当赛博语上手*&%# ",
+ 	 	 	 	 	"使用Unit为全体玩家带来爱与光明！",
+ 	 	 	 	 	"好货才是硬道理，我们这儿的商品都很硬！",
+ 	 	 	 	 	"地下城迷路了怎么办？呼叫大佬支援！",
+ 	 	 	 	 	"我就是香格里拉的爱豆...呼呼，收音机又坏了下次换台新的！",
+ 	 	 	 	 	"经~验~加~成是我的最爱！",
+ 	 	 	 	 	"以慷慨之心笼罩大地的无上至尊,名字要炫酷一些！",
+ 	 	 	 	 	"你花钱了吗？不，我是白嫖怪，我爱这个地方。",
+ 	 	 	 	 	"车到山前必有路，船到桥头自然直！",
+ 	 	 	 	 	"你不能要求每个人都按你的预期做事，因为这里是赛博旗舰店！"
+          	 	 	 	],
  	 	 	 	"eng": [
  	 	 	 	 	"Do you want to buy Units, or use your Units?"
  	 	 	 	]
@@ -4231,18 +4250,18 @@
  	 	"cosmetic": {
  	 	 	"defaultLines": {
  	 	 	 	"trans": [
- 	 	 	 	 	"嘿！通过捐赠来获得饰品并支持像这个游戏一样的非氪金游戏吧！"
+ 	 	 	 	 	"嘿！通过捐赠来获得饰品并支持像这个非氪金游戏吧！"
  	 	 	 	],
  	 	 	 	"eng": [
  	 	 	 	 	"Hi! Donate to get cosmetic perks and to help support Free-to-Win games like this one!"
  	 	 	 	]
  	 	 	},
  	 	 	"name": {
- 	 	 	 	"trans": "装饰性赛博插件",
+ 	 	 	 	"trans": "赛博装饰",
  	 	 	 	"eng": "Cosmetic Cyberwear"
  	 	 	},
  	 	 	"canAccessError": {
- 	 	 	 	"trans": "您需要至少达到3级才能访问装饰品商家",
+ 	 	 	 	"trans": "您需要至少达到3级才能访问赛博装饰",
  	 	 	 	"eng": "You need to be at least level 3 to access cosmetic merchant"
  	 	 	},
  	 	 	"tut": {
@@ -4777,7 +4796,7 @@
  	 	 	"vars": [
  	 	 	 	"minLevel"
  	 	 	],
- 	 	 	"trans": "反物质充能体（LV ${minLevel}）",
+ 	 	 	"trans": "反物质电池（LV ${minLevel}）",
  	 	 	"eng": "Anti Matter Charge (lv${minLevel})"
  	 	}
  	},
@@ -4894,11 +4913,11 @@
  	},
  	"dungeon": {
  	 	"enemyInRoomDoorError": {
- 	 	 	"trans": "房间里还有敌人时，你不能使用门",
+ 	 	 	"trans": "房间里还有敌人，你想逃跑吗？",
  	 	 	"eng": "You cannot use door while there is still enemy in room"
  	 	},
  	 	"enemyInCrateDoorError": {
- 	 	 	"trans": "在附近仍然有敌人时搜索太危险了",
+ 	 	 	"trans": "伙计，敌人盯着你呢",
  	 	 	"eng": "It is too dangerous to search while there are still enemies nearby"
  	 	},
  	 	"quest": {
@@ -4951,7 +4970,7 @@
  	 	 	 	"eng": "Recommended Level: ${maxLevel}+ with co-op\r\n                    ${expMultiplier}x more EXP!\r\n                    Challenge mode dungeon, extra loot and exp.\r\n                    Drops ${keyFragmentDisplayName}\r\n                    Not advised to enter if your level is too low"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "觉得自己足够强大了吗? 在挑战地下城里大展身手吧！\r\n                        里面有海量的物资等待着你的探索，也有一个强大的首领等候着你!\r\n                        建议最好与其他玩家一起合作探索",
+ 	 	 	 	"trans": "觉得自己足够强大了吗？在挑战地下城里大展身手吧！\r\n                        里面有海量的物资等待着你的探索，也有一个强大的首领等候着你!\r\n                        建议最好与其他玩家一起合作探索",
  	 	 	 	"eng": "Are you strong enough? try it out on Challenge Dungeon,\r\n                        there is a strong boss and tons of loot at the end waiting for you!\r\n                        Its recommended to attempt this with other players."
  	 	 	}
  	 	},
@@ -4986,7 +5005,7 @@
  	 	 	"eng": "Send Invite To Chat"
  	 	},
  	 	"buttonTut": {
- 	 	 	"trans": "你觉得你足够强大吗？ 来挑战在地下城中更强大的敌人吧！ \r\n                         记得买一些治疗物品！ 在地下城中你的血量不会在战斗后恢复！",
+ 	 	 	"trans": "你觉得你足够强大吗？ 来挑战在地下城中更强大的敌人吧！ \r\n                         愿胜利女神与你同在！--香格里拉的爱豆",
  	 	 	"eng": "Do you think you are strong enough? take on stronger enemies in dungeon!\r\n                        remember to buy some healing item! you won't regen after battle in dungeon"
  	 	}
  	},
@@ -5046,7 +5065,7 @@
  	},
  	"itemTrait": {
  	 	"stun": {
- 	 	 	"trans": "令人惊叹的",
+ 	 	 	"trans": "击晕",
  	 	 	"eng": "of Stunning"
  	 	},
  	 	"bargain": {
@@ -5054,39 +5073,39 @@
  	 	 	"eng": "of Bargaining"
  	 	},
  	 	"power": {
- 	 	 	"trans": "强力",
+ 	 	 	"trans": "力量",
  	 	 	"eng": "of Power"
  	 	},
  	 	"health": {
- 	 	 	"trans": "健康",
+ 	 	 	"trans": "体力",
  	 	 	"eng": "of Health"
  	 	},
  	 	"healthRegen": {
- 	 	 	"trans": "生命",
+ 	 	 	"trans": "回复",
  	 	 	"eng": "of Life"
  	 	},
  	 	"maxShield": {
- 	 	 	"trans": "屏蔽",
+ 	 	 	"trans": "护盾",
  	 	 	"eng": "of Shielding"
  	 	},
  	 	"sneaky": {
- 	 	 	"trans": "偷偷摸摸",
+ 	 	 	"trans": "潜行",
  	 	 	"eng": "of Sneaking"
  	 	},
  	 	"evade": {
- 	 	 	"trans": "逃避",
+ 	 	 	"trans": "闪避",
  	 	 	"eng": "of Evasion"
  	 	},
  	 	"pocketed": {
- 	 	 	"trans": "口袋",
+ 	 	 	"trans": "背包",
  	 	 	"eng": "with pockets"
  	 	},
  	 	"criticalChanceArmor": {
- 	 	 	"trans": "暴击机会",
+ 	 	 	"trans": "暴击机率",
  	 	 	"eng": "of Crit Chance"
  	 	},
  	 	"criticalChanceWeapon": {
- 	 	 	"trans": "暴击机会",
+ 	 	 	"trans": "暴击几率",
  	 	 	"eng": "of Crit Chance"
  	 	},
  	 	"criticalDamageArmor": {
@@ -5094,7 +5113,7 @@
  	 	 	"eng": "of Brutality"
  	 	},
  	 	"healingMultiplier": {
- 	 	 	"trans": "愈合",
+ 	 	 	"trans": "治愈",
  	 	 	"eng": "of Healing"
  	 	},
  	 	"criticalDamageWeapon": {
@@ -5102,31 +5121,31 @@
  	 	 	"eng": "of Crit Damage"
  	 	},
  	 	"upgradeHealth": {
- 	 	 	"trans": "健康",
+ 	 	 	"trans": "体力",
  	 	 	"eng": "of Health"
  	 	},
  	 	"upgradeDamage": {
- 	 	 	"trans": "损害",
+ 	 	 	"trans": "伤害",
  	 	 	"eng": "of Damage"
  	 	},
  	 	"upgradeShield": {
- 	 	 	"trans": "盾牌",
+ 	 	 	"trans": "护盾",
  	 	 	"eng": "of Shield"
  	 	},
  	 	"upgradeSneaky": {
- 	 	 	"trans": "偷偷摸摸",
+ 	 	 	"trans": "潜行",
  	 	 	"eng": "of Sneaking"
  	 	},
  	 	"upgradeHealthRegen": {
- 	 	 	"trans": "生命",
+ 	 	 	"trans": "回复",
  	 	 	"eng": "of Life"
  	 	},
  	 	"upgradeStun": {
- 	 	 	"trans": "眩晕",
+ 	 	 	"trans": "击晕",
  	 	 	"eng": "of Stun"
  	 	},
  	 	"upgradeCriticalChance": {
- 	 	 	"trans": "暴击机会",
+ 	 	 	"trans": "暴击机率",
  	 	 	"eng": "of Crit Chance"
  	 	},
  	 	"upgradeCriticalDamage": {
@@ -5134,7 +5153,7 @@
  	 	 	"eng": "of Crit Damage"
  	 	},
  	 	"upgradeEvade": {
- 	 	 	"trans": "逃避",
+ 	 	 	"trans": "闪避",
  	 	 	"eng": "of Evade"
  	 	},
  	 	"upgradePocketed": {
@@ -5177,7 +5196,7 @@
  	 	 	"eng": "If all items are sold, you will earn ${total} BitCoins"
  	 	},
  	 	"sellAmountModalTitle": {
- 	 	 	"trans": "你要出售多少？",
+ 	 	 	"trans": "你想出售多少？",
  	 	 	"eng": "How many would you like to sell?"
  	 	}
  	},
@@ -5242,13 +5261,13 @@
  	 	 	 	"likerName",
  	 	 	 	"amount"
  	 	 	],
- 	 	 	"trans": "${likerName}向您发起的的全球时光飞逝致敬了${amount}次",
+ 	 	 	"trans": "${likerName}向您发起的的广域时间扭曲致敬了${amount}次",
  	 	 	"eng": "${likerName} has send you ${amount} respects for your skip"
  	 	}
  	},
  	"shop": {
  	 	"noEnoughSpace": {
- 	 	 	"trans": "您的库存中没有足够空间来购买此物品",
+ 	 	 	"trans": "您的背包中没有足够空间来购买此物品",
  	 	 	"eng": "You have no space in your inventory to purchase this item"
  	 	},
  	 	"noEnoughMoney": {
@@ -5291,21 +5310,21 @@
  	 	 	 	"vars": [
  	 	 	 	 	"amount"
  	 	 	 	],
- 	 	 	 	"trans": "这将从您的帐户中捐赠${amount}单元",
+ 	 	 	 	"trans": "这将从您的帐户中捐赠${amount}单位",
  	 	 	 	"eng": "This will donate ${amount} Unit from your account"
  	 	 	},
  	 	 	"notEnough": {
- 	 	 	 	"trans": "你没有足够的单元捐赠。",
+ 	 	 	 	"trans": "你没有足够的单位捐赠。",
  	 	 	 	"eng": "You do not have enough Unit to donate."
  	 	 	}
  	 	},
  	 	"chatMessage": {
  	 	 	"block": {
- 	 	 	 	"trans": "堵塞",
+ 	 	 	 	"trans": "封锁",
  	 	 	 	"eng": "Block"
  	 	 	},
  	 	 	"openPlayerProfile": {
- 	 	 	 	"trans": "查看资料",
+ 	 	 	 	"trans": "查看个人资料",
  	 	 	 	"eng": "View Profile"
  	 	 	},
  	 	 	"openPlayerGang": {
@@ -5397,7 +5416,7 @@
  	 	},
  	 	"equipmentQuickMenu": {
  	 	 	"unequip": {
- 	 	 	 	"trans": "卸下",
+ 	 	 	 	"trans": "卸下装备",
  	 	 	 	"eng": "unequip"
  	 	 	},
  	 	 	"viewDetails": {
@@ -5415,7 +5434,7 @@
  	 	 	 	"eng": "Unofficial translation"
  	 	 	},
  	 	 	"description1": {
- 	 	 	 	"trans": "由于这款游戏仅由一个人制作，因此正确翻译所有语言是非常困难的，但我正在研究添加更多翻译:)",
+ 	 	 	 	"trans": "此游戏仅由一人制作，翻译问题压力山大。如果您愿意参与翻译工作，我将不胜感激ps:志愿者注:)",
  	 	 	 	"eng": "As this game is made by only one person, it's very difficult translate all languages correctly, but I am working on adding more translations :)"
  	 	 	},
  	 	 	"description": {
@@ -5438,7 +5457,7 @@
  	 	 	 	 	"eng": "I understand"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "使用非官方翻译",
+ 	 	 	 	 	"trans": "使用简中翻译",
  	 	 	 	 	"eng": "Use unofficial translation"
  	 	 	 	}
  	 	 	}
@@ -5458,7 +5477,7 @@
  	 	},
  	 	"promotion": {
  	 	 	"title": {
- 	 	 	 	"trans": "广播收到",
+ 	 	 	 	"trans": "接收广播通知",
  	 	 	 	"eng": "Broadcast Received"
  	 	 	},
  	 	 	"dontShowAgain": {
@@ -5468,7 +5487,7 @@
  	 	},
  	 	"resultScreen": {
  	 	 	"title": {
- 	 	 	 	"trans": "升级",
+ 	 	 	 	"trans": "胜利",
  	 	 	 	"eng": "Victory"
  	 	 	},
  	 	 	"subTitle": {
@@ -5562,7 +5581,7 @@
  	},
  	"dungeonList": {
  	 	"newbieTip": {
- 	 	 	"trans": "在地下城的每次战斗后，你不会自行治愈，记得用你的治疗物品。",
+ 	 	 	"trans": "在地下城的每次战斗后，通常情况下你不能自行治愈，记得用你的快捷治疗道具。",
  	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
  	 	}
  	},
@@ -5587,15 +5606,15 @@
  	 	 	 	"eng": "Hello, dear players!"
  	 	 	},
  	 	 	"content2": {
- 	 	 	 	"trans": "我是Dexter，CCO的开发者",
+ 	 	 	 	"trans": "我是Dexter，CCO 的开发者",
  	 	 	 	"eng": "I am Dexter, the developer of CyberCode Online."
  	 	 	},
  	 	 	"content3": {
- 	 	 	 	"trans": "如果你有写闲钱，就捐赠吧，这对我与我的游戏开发都很有帮助！",
+ 	 	 	 	"trans": "如果你有一些闲钱，可以选择进行赞助，这将对游戏开发很有帮助！",
  	 	 	 	"eng": "If you have some spare change it would be very helpful if you could donate to help with continued support and development of the game."
  	 	 	},
  	 	 	"content4": {
- 	 	 	 	"trans": "如果你想要支持就继续捐赠吧，但是捐赠获得的好处对所有玩家们都是公平的，你并不取得任何优势！",
+ 	 	 	 	"trans": "请您在有结余的情况下赞助，此收益将致力于提升全体玩家的游戏体验，每个人都是上帝！",
  	 	 	 	"eng": "Please only donate if you are comfortable, all benefits are designed to be fair for all players and will not give an edge in gameplay."
  	 	 	}
  	 	},
@@ -5604,7 +5623,7 @@
  	 	 	"eng": "Monthly Subscription"
  	 	},
  	 	"TiersTitle": {
- 	 	 	"trans": "捐赠等级",
+ 	 	 	"trans": "赞助等级",
  	 	 	"eng": "Donation Tiers"
  	 	},
  	 	"unitPrice": {
@@ -5618,11 +5637,11 @@
  	 	 	"vars": [
  	 	 	 	"date"
  	 	 	],
- 	 	 	"trans": "折扣以${date}结束",
+ 	 	 	"trans": "降价会在${date}结束",
  	 	 	"eng": "Discount ends in ${date}"
  	 	},
  	 	"permanentDescription": {
- 	 	 	"trans": "这个标题永远不会过期。\\ nit永远留在您的帐户。",
+ 	 	 	"trans": "这个标题永远不会过期。\\n 它会永远留在您的帐户。",
  	 	 	"eng": "This title will never expire.\\nIt stays with your account forever."
  	 	}
  	},
